@@ -15,7 +15,7 @@ cred_path = os.path.abspath("firebase-admin-sdk.json")
 cred = credentials.Certificate(cred_path)
 firebase_admin.initialize_app(cred)
 
-FACT_CHECK_API_KEY = "AIzaSyBP1lEbOoOz78dncNjIwwITaWlcXQNffoM"
+FACT_CHECK_API_KEY = "API_KEY"
 
 def check_fact(text):
     url = f"https://factchecktools.googleapis.com/v1alpha1/claims:search?query={text}&key={FACT_CHECK_API_KEY}"
