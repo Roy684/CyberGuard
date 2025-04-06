@@ -1,0 +1,3 @@
+<resources>
+    <string name="accessibility_service_description">Used to scan text for misinformation detection.</string>
+</resources>
